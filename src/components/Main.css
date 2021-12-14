@@ -1,0 +1,73 @@
+.main{
+    max-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+}
+.mainImageContainer >img{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 15rem;
+    width: 20rem;
+    margin-right: 10px;
+}
+.detailsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.nameContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nameMain{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 30px;
+}
+.id{
+    font-size: 40px;
+}
+.handleContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.handleContainer >img{
+    border-radius: 200px;
+    height: 50px;
+    width: 50px;
+}
+
+.handle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.instaHandle{
+    color: cyan;
+}
+
+.socialMediaContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.socialMediaContainer >img{
+    border:1px solid white;
+    border-radius: 200px;
+    height: 50px;
+    width: 50px;
+    margin:0px 10px;
+    padding:10px
+}
