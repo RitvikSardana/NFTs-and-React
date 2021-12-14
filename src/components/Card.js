@@ -5,7 +5,7 @@ import './Card.css'
 const Card = ({id,name,image,traits}) => {
     return (
         <div className='card'>
-            <img src={image}alt="" />
+            <img src={image}alt="img" />
             <div className="details">
                 <div className="name">
                     {name}
